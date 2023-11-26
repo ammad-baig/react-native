@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "308056401334",
+    "project_id": "calculator-sample",
+    "storage_bucket": "calculator-sample.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308056401334:android:16efcb844a0be8cca38d17",
+        "android_client_info": {
+          "package_name": "com.navigationandaxios"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3WdWAX1nHIO-BpwxovCDO2m0EvX6RxgU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
