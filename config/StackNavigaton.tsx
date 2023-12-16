@@ -8,6 +8,8 @@ import SignUp from '../screens/Signup'
 import Login from '../screens/Login'
 import Task from '../screens/Task'
 import ImagePicker from '../screens/ImagePicker'
+import LocalData from '../screens/AsyncStorage'
+import MapsScreen from '../screens/MapsScreen'
 
 const Stack = createNativeStackNavigator()
 
@@ -20,11 +22,21 @@ function StackNavigaton() {
                     backgroundColor: 'skyblue',
                 },
             }}>
-                <Stack.Screen name='ImagePicker' component={ImagePicker} />
+                <Stack.Screen name='Maps' component={MapsScreen} options={{
+                    headerShown: false
+                }} />
+                <Stack.Screen name='AsyncStorage' component={LocalData} options={{
+                    headerShown: false
+                }} />
+                <Stack.Screen name='ImagePicker' component={ImagePicker} options={{
+                    headerShown: false
+                }} />
                 <Stack.Screen name='Login' component={Login} options={{
                     headerShown: false
                 }} />
-                <Stack.Screen name='Task' component={Task} />
+                <Stack.Screen name='Task' component={Task} options={{
+                    headerShown: false
+                }} />
                 <Stack.Screen name='Signup' component={SignUp} options={{
                     headerShown: false
                 }} />
